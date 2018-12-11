@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: pol-center
+
+server:
+  port: 8761 # 启动端口
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetchRegistry: false

@@ -1,0 +1,121 @@
+.active_menu{
+	display: inline-block;
+}
+img {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+html,
+body,
+.row {
+    margin: 0;
+    padding: 0;
+}
+.container-fluid {
+     padding-right: 0 !important; 
+     padding-left: 0 !important; 
+     margin-right: 0 !important; 
+     margin-left: 0 !important; 
+}
+.top {
+    height: 210px;
+    /* background: #408080; */
+    background: url(../img/pinwheel.jpg);
+    /* background-size: 100% 100%; */
+    background-position: 0px -108px;
+}
+.middle {
+    background: url(../img/blackboard.jpg);
+    background-position: 0 0px;
+    height: 627px;
+    /* opacity: 0.9; */
+}
+.bottom {
+    height: 241px;
+    /* background: #408080; */
+    background: url(../img/pinwheel.jpg);
+    /* background-size: 100% 100%; */
+    background-position: 0px 238px;
+}
+.login_div {
+    position: relative;
+    left: -50%;
+    top: 41%;
+    transform: translate(-50%, -50%);
+    width: 380px;
+    /* height: 400px; */
+    /* background: #374045; */
+    color: beige;
+    /* border: 1px solid gray; */
+    /* border-radius: 10px; */
+    /* margin: 26px 20px 20px 20px; */
+    /* padding: 20px 20px 20px 20px; */
+}
+.middle_right {
+    height: 800px;
+    /* background: darkgray; */
+    opacity: 0.7;
+}
+.btn {
+    font-weight: 500;
+    border-radius: 2px;
+    margin: 5px 7px;
+}
+.login_text {
+    height: 60px;
+    /* width: 280px; */
+    margin: 0 30px;
+}
+.identifier{
+	width: 57%;
+}
+.remember_btn{
+	font-size: 18px;
+}
+.welcome_info {
+    color: black;
+    font: normal 400 31px "楷体";
+}
+.menu_div{
+	
+}
+.menu_item{
+	width: 100%;
+	height: 30px;
+	border: 1px solid black;
+	line-height: 30px;
+	
+}
+a{
+	cursor: pointer;
+}
+table {
+    width: 100%;
+    background-color: transparent;
+}
+
+.data_div tr {
+    height: 25px;
+}
+
+thead tr {
+    background-color: #b8daff;
+    font: normal bold 17px "微软雅黑";
+    color: black;
+}
+tbody tr:nth-of-type(odd) {
+    background-color: #d6d8db;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f4f4f4;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+    background-color: #bee5eb;
+}
+tr td{
+	min-width: 50px;
+}
